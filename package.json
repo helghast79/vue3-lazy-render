@@ -4,7 +4,6 @@
   "description": "A Vue 3 plugin for lazy rendering components",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
