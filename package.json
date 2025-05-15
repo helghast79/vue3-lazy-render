@@ -1,0 +1,31 @@
+{
+  "name": "vue3-lazy-render",
+  "version": "1.0.0",
+  "description": "A Vue 3 plugin for lazy rendering components",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "lazy",
+    "render",
+    "plugin"
+  ],
+  "author": "Miguel Chambel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/lazyRender.git"
+  }
+}
